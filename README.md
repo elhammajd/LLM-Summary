@@ -81,6 +81,7 @@ Project Structure
 graphql
 Copy
 llm_projects/
+
 ├── README.md                 # Project documentation
 
 ├── requirements.txt          # Project dependencies
