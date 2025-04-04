@@ -37,8 +37,6 @@ This project is built to showcase the integration of LangChain and OpenAI's GPT-
    cd llm_projects
 Create and activate a virtual environment (recommended):
 
-bash
-Copy
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 Install dependencies:
@@ -50,8 +48,6 @@ Usage
 Text Summarization App
 Run the summarization Streamlit app:
 
-bash
-Copy
 streamlit run streamlit_llm.py
 In the app sidebar, enter:
 
@@ -64,8 +60,6 @@ Hit Enter and view the generated summary along with an embedded tutorial video.
 Q&A App
 Run the Q&A Streamlit app (if integrated in a separate file, adjust accordingly):
 
-bash
-Copy
 streamlit run streamlit_llm.py
 In the app sidebar, input:
 
@@ -77,9 +71,6 @@ The specific question you want answered.
 
 Hit Enter to receive an answer based on the content of the provided URL.
 
-Project Structure
-graphql
-Copy
 llm_projects/
 
 ├── README.md                 # Project documentation
@@ -102,8 +93,6 @@ Fork the repository.
 
 Create a feature branch:
 
-bash
-Copy
 git checkout -b feature/my-feature
 Commit your changes with clear commit messages.
 
